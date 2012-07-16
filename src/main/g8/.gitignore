@@ -1,0 +1,5 @@
+target
+lib_managed
+.idea
+.idea_modules
+out
