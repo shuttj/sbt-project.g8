@@ -3,13 +3,13 @@ import Keys._
 
 object BuildSettings
 {
-	val buildScalaVersion = "$scala-version$"
+	val buildScalaVersion = "$scala_version$"
 
 	val settings = Defaults.defaultSettings ++ Seq (
 		name := "$name$"
 		, retrievedManaged := true
 		, scalaVersion := buildScalaVersion
-		, sbtVersion := "$sbt-version$"
+		, sbtVersion := "$sbt_version$"
 		, organization := "$organization$"
 	)
 }
