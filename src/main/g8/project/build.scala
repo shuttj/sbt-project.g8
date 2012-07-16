@@ -7,7 +7,7 @@ object BuildSettings
 
 	val settings = Defaults.defaultSettings ++ Seq (
 		name := "$name$"
-		, retrievedManaged := true
+		, retrieveManaged := true
 		, scalaVersion := buildScalaVersion
 		, sbtVersion := "$sbt_version$"
 		, organization := "$organization$"
